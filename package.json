@@ -1,0 +1,22 @@
+{
+  "name": "mongodb-fundamentals-week1",
+  "version": "1.0.0",
+  "description": "MongoDB Fundamentals Week 1 Assignment",
+  "main": "insert_books.js",
+  "scripts": {
+    "insert": "node insert_books.js",
+    "queries": "node queries.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongodb",
+    "database",
+    "nosql"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^6.3.0",
+    "dotenv": "^16.3.1"
+  }
+}
